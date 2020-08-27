@@ -4,6 +4,14 @@
  */
 public class Jeroo extends JerooBase {
     // Put your own methods here
+    public void moveBackward() 
+{
+  turn(RIGHT);
+  turn(RIGHT);
+  hop();
+  turn(RIGHT); 
+  turn(RIGHT); 
+}
     
     
     
